@@ -1,3 +1,33 @@
 .card{
     border: none;
 }
+.images{
+    display: flex;
+    justify-content: center;
+}
+.mbtn{
+    display: flex;
+    justify-content: center;
+}
+.hidingbox{
+    color: white;
+    position: absolute;
+    opacity: 0;
+    width: 500px;
+    height: 0px;
+    text-align: center;
+    top: 0px;
+}
+a{
+    text-decoration: none;
+    color: white;
+}
+.mainbox{
+    position: relative;
+}
+.mainbox:hover .hidingbox{
+    opacity: 0.6;
+    background-color: black;
+    height: 100%;
+    transition: 1s;
+}
